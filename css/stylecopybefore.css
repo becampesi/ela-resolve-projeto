@@ -1,0 +1,148 @@
+*{
+    box-sizing: border-box;
+    padding:0;
+    margin:0;
+  }
+  main{
+    display: flex;
+    flex-direction: column;
+
+  }
+  header{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 10vh;
+    background-color: #ff87bb;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  
+  header nav ul{
+    display:flex;
+    flex-flow: row;
+    list-style: none;
+    text-decoration: underline;  
+  }
+  
+  header nav ul li{
+    padding: 10px;
+    color:grey;
+  }
+  header a{
+    padding:2rem;
+    color:grey;
+  }
+  #login {
+    color:grey;
+    background-color: #b62966;
+    width:5rem;
+    height:2rem;
+  }
+  
+  #banner {
+    height: 80vh;
+    width: 100vw;
+  }
+  .sectioncolorbg{
+    box-sizing: border-box;
+    padding:20px;
+    height: fit-content;
+    flex-direction: row;
+    width: 100vw;
+   background-color: #ff87bb; 
+  }
+  
+  h2{
+    text-align: center;
+    padding: 1%; 
+  }
+  .divoqepimg{
+    display: flex;
+  }
+  #oqeimg{
+    padding-left:5rem;
+    width: 40%;
+    height: 45vh;
+
+  }
+  
+  .button{
+    padding: 10px;
+    height:5vh;
+    width: 7vw;
+    background-color: pink;
+  }
+  p{
+   width: 50%;
+   height: 45vh;
+   text-align: justify;
+   padding-left: 3rem;
+  }
+
+  .linkbutton{
+    display: block;
+    text-align: center;
+    padding: 3rem;
+  }
+
+  .externalpadding{
+    padding:2rem;
+  }
+  
+  #servicosoferecidos{
+    box-sizing: border-box;
+    padding: 5vh 5vh 5vh 5vh;
+    border: solid 1vw #ff87bb;
+    width: 100%;
+    height: 100vh;
+  }
+  #servicosoferecidosh2{
+    color: #b62966;
+    padding-bottom: 2rem;
+  }
+
+  .servico{
+    display: flex;
+    flex-direction: column;
+    width:28%;
+    height: 20vh;
+    border: solid 0.5vw #b62966;
+
+  }
+
+  .fotoservico{
+    width: 100%;
+  }
+
+  .descricaoservico{
+    border: solid 0.5vw #b62966;
+    width: 100%;
+    height: 100%;
+
+  }
+
+  .nomedoservico{
+    padding-top: 1rem;
+    padding-left: 1rem;
+    padding-bottom: 0;
+    margin: 0%;
+    line-height: 0px;
+    margin-bottom: 0%;
+   
+  }
+  .descricaoservico{
+    line-height: 20px;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    width: 100%;
+  }
+  .descricaoservicop{
+    width: fit-content;
+  }
+  .spacebeforep{
+    padding-bottom: 10px;
+  }
+
+  
+  

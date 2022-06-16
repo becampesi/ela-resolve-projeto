@@ -1,0 +1,23 @@
+*{
+  box-sizing: border-box;
+}
+#border {  
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+border: solid 0.5vw #ff87bb ;
+padding: 15vw;
+}
+
+h1{
+  color:#c91c67;
+  display: block;
+}
+h2{
+  color: #61555a;
+}
+
+#rememberpassword{
+
+}

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/stylecadastro.css">
+  <title>Cadastro</title>
+</head>
+
+<body>
+  <main>
+    <h1>SUA INSCRIÇÃO</h1>
+    <h2 class="subtitulos">dados pessoais</h2>
+    <section class="border">
+      <div id="dadospessoaisbox">
+        <form action="cadastrar.html" method="POST">
+          <label for="nome">NOME: </label><input type="text" name="nome" class="dadospessoaiscadastro">
+          <label for="sobrenome">SOBRENOME: </label><input type="text" name="sobrenome" class="dadospessoaiscadastro">
+          <br>
+          <label for="email">EMAIL: </label><input type="email" name="email" class="dadospessoaiscadastro">
+          <label for="telefone">TELEFONE: </label><input type="number" name="telefone" class="dadospessoaiscadastro">
+          <br>
+          <label for="datadenascimento">DATA DE NASCIMENTO: </label><input type="date" name="datadenascimento" class="dadospessoaiscadastro">
+          <label for="rg">RG: </label><input type="number" name="rg" class="dadospessoaiscadastro">
+          <label for="cpf">CPF: </label><input type="number" name="cpf" class="dadospessoaiscadastro">
+          <br>
+          <label for="estrangeira">SOU ESTRANGEIRA:</label><input type="checkbox" name="estrangeira" class="dadospessoaiscadastro">
+          <label for="rne">RNE: </label><input type="number" name="rne" class="dadospessoaiscadastro">
+          <label for="´passaporte">PASSAPORTE: </label><input type="number" name="passaporte" class="dadospessoaiscadastro">
+          <br>
+          <label for="endereco">ENDEREÇO: </label><input type="text" name="text" class="dadospessoaiscadastro">
+          <br>
+          <label for="nendereco">N: </label><input type="number" name="nendereco" class="dadospessoaiscadastro">
+          <label for="complemento">COMPL.: </label><input type="text" name="complemento" class="dadospessoaiscadastro">
+          <label for="cep">CEP: </label><input type="number" name="cep" class="dadospessoaiscadastro">
+          <br>
+          <label for="bairro">BAIRRO: </label><input type="text" name="bairro" class="dadospessoaiscadastro">
+          <label for="cidade">CIDADE: </label><input type="text" name="cidade" class="dadospessoaiscadastro">
+          <label for="estado">ESTADO: </label><input type="text" name="estado" class="dadospessoaiscadastro">
+          <br>
+          <label> ME IDENTIFICO COMO: </label>
+          <input type="radio" name="genero" value="mulher-cis" class="dadospessoaiscadastro"><label for="mulher-cis">mulher cis</label>
+          <input type="radio" name="genero" value="mulher-trans" class="dadospessoaiscadastro"><label for="mulher-trans">mulher trans</label>
+          <input type="radio" name="genero" value="homem-trans" class="dadospessoaiscadastro"><label for="homem-trans">homem-trans</label>
+          <input type="radio" name="genero" value="nao-binário" class="dadospessoaiscadastro"><label for="nao-binario">nao-binario</label>
+          <br>
+          <label>MEUS PRONOMES SÃO: </label>
+          <input type="radio" name="pronome" value="femininos" class="dadospessoaiscadastro"><label for="femininos">femininos</label>
+          <input type="radio" name="pronome" value="masculinos" class="dadospessoaiscadastro"><label for="masculinos">masculinos</label>
+          <input type="radio" name="pronome" value="neutros" class="dadospessoaiscadastro"><label for="neutros">neutros</label>
+      </div>
+      </form>
+    </section>
+    <br>
+    <h2 class="subtitulos" id="senha">senha</h2>
+    <section class="border">
+      <form action="cadastrar.html" method="POST">
+        <label for="criarsenha">CRIE UMA SENHA: </label><input type="password" name="criarsenha" class="criacaodesenha">
+        <label for="repetirsenha">REPITA A SENHA: </label><input type="password" name="repetirsenha" class="criacaodesenha">
+      </form>
+    </section>
+    <br>
+    <h2 class="subtitulos">minha pagina</h2>
+    <section class="border" id="minhapagina">
+      <form class="atributoesq" action="cadastrar.html" method="POST">
+        <label for="nomevisivel">COMO EU QUERO QUE MEU NOME APAREÇA: </label><input type="text" name="nomevisivel">
+
+      </form>
+
+
+
+
+
+  </main>
+</body>
+
+</html>
