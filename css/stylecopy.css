@@ -42,28 +42,54 @@
   
   #banner {
     height: 80vh;
-    width: 100vw;
+    width: 100%;
   }
   .sectioncolorbg{
     box-sizing: border-box;
-    padding:20px;
+    padding:1rem 3rem 1rem 3rem;
     height: fit-content;
     flex-direction: row;
-    width: 100vw;
-   background-color: #ff87bb; 
+    width: 100%;
+    background-color: #ff87bb; 
   }
   
   h2{
     text-align: center;
-    padding: 1%; 
+    padding: 1%;
+    padding:2%;
   }
   .divoqepimg{
     display: flex;
+    align-items: center;
   }
+
+  .divoqepimg p {
+    width: 50%;
+    text-align: justify;
+    margin-right: 3rem;
+  }
+
   .oqeimg{
-    padding-left:5rem;
-    width: 40%;
-    height: 45vh;
+    padding-left:10rem;
+    width: 600px;
+    height: 300px;
+
+  }
+
+  .alignbuttontocenter{
+    text-align: center;
+    width: 100%;
+    height: fit-content;
+    padding:2rem 0 1.5rem 0;
+
+  }
+
+  #oqebutton{
+      color:grey;
+      background-color: #b62966;
+      width:5rem;
+      height:2rem;
+      text-align: center;
 
   }
   
@@ -72,12 +98,6 @@
     height:5vh;
     width: 7vw;
     background-color: pink;
-  }
-  p{
-   width: 50%;
-   height: 45vh;
-   text-align: justify;
-   padding-left: 3rem;
   }
 
   .linkbutton{
@@ -102,12 +122,32 @@
     padding-bottom: 2rem;
   }
 
+  .servicos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+
   .servico{
     display: flex;
     flex-direction: column;
     width:28%;
-    height: 20vh;
+    height: 30vh;
     border: solid 0.5vw #b62966;
+    margin-bottom: 50px;
+  }
+
+  .imagemServico {
+    height: 50%;
+    width: 100%;
+  }
+
+  .imagemServico img {
+    height: 100%;
+    object-fit: fill;
+  }
+
+  .imagemServico {
 
   }
 
@@ -116,10 +156,14 @@
   }
 
   .descricaoservico{
-    border: solid 0.5vw #b62966;
+    border-top: solid 0.5vw #b62966;
     width: 100%;
-    height: 100%;
+    height: 50%;
+    padding: 5px 10px 10px 10px;
+  }
 
+  .descricaoservico h3 {
+    margin-bottom: 5px;
   }
 
   .nomedoservico{
@@ -131,42 +175,34 @@
     margin-bottom: 0%;
    
   }
-  .descricaoservico{
-    line-height: 20px;
-    margin-top: 0%;
-    margin-bottom: 0%;
-    width: 100%;
-  }
-  .descricaoservicop{
-    width: fit-content;
-  }
-  .spacebeforep{
-    padding-bottom: 10px;
+
+  #outrosservicosbutton{
+
   }
 
-  div .space{
-    width: 100%;
-    height: 5rem;
-  }
+  <!-- Por quw usar o Ela Resolve  --
+   
 
-  #pqimg{
-    padding-bottom: 5rem;
-    width: 25%;
+
+  .pqimg{
+    width: 300px;
+    height: 400px; 
   }
-#pqimg{
-  padding-bottom: 5rem ;
-}
 
 #agentetescutapai{
   
   width: 100%;
   height: fit-content;
   background-color: #b62966;
-  padding-left: 3rem;
+  padding-left: 1.5rem;
   padding-top: 2rem;
+  padding-right:1.5rem;
+  padding-bottom: 2rem;
 }
 #agenteteescutatituloedescricaodiv{
   display: flex;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
 }
 
 #agenteteescutatitulodiv{
@@ -176,18 +212,197 @@
   height: fit-content;
   margin-top: 2rem;
 
+
 }
 #agenteteescutadescricaodiv{
   display: flex;
   padding:1rem;
-  padding-bottom: 3rem;
+  padding-bottom: 0.5rem;
   width:40% ;
-  height: 15vh;
-  border: solid 0.5vw grey; 
+  height: 12vh;
+  border: solid 0.5vw white; 
+  margin-top: 1rem;
   margin-left: auto;
-  margin-right: 3rem;
   margin-bottom: 3rem;
 }
+
+#pesquisadevalidacaodivpai{
+  background-color: white;
+  display:flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  height: fit-content;
+  padding: 2rem;
+
+
+}
+.graficodesenhoedescricao{
+  padding: 1rem;
+  display:flex;
+  flex-direction: column;
+  border: solid 0.5rem pink;
+  width: 30%;
+  align-items: center;
+}
+
+.piechart{
+  display: flex;
+  border-radius: 50%;
+  background-color: grey;
+  width: 40vh;
+  height: 40vh;
+  align-items: center;
+  justify-content: center;
+}
+
+#piechart1{
+  background:repeating-conic-gradient(
+    from 0deg,
+    red 0deg  calc(3.6deg * 89),
+    blue calc(3.6deg * 89) calc(3.6deg * 100)
+  );
+}
+
+.piechartpercentage{
+  text-align: center;
+  align-items: center;
+  background-color: green ;
+}
+
+.piechartdescription{
+  padding: 1rem;
+ text-align: justify; 
+
+}
+#sectionduvidas{
+  background-color: #ff87bb;
+}
+#duvidasimgedescricao{
+  display: flex;
+  flex-direction: row;
+}
+#duvidasimg{
+  width: 550px;
+  height: 300px;
+}
+#descricaoebuttondivpai{
+  padding: 3rem 5rem 3rem 5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: solid 1rem yellow;
+  width: 100%;
+}
+
+#duvidasdescricaodiv{
+  border: solid 0.5rem green;
+  width:100%;
+  text-align: left;
+}
+#duvidasdescricaodiv h2{
+  text-align: left;
+  margin-left: 0;
+  padding-left: 0;
+  padding-top: 0;
+}
+
+#duvidasbuttondiv{
+  border: solid 0.5rem orange;
+  width:100%;
+  text-align: left;
+}
+
+footer{
+  width: 100%;
+  height: fit-content;
+  background-color: grey;
+  padding: 3rem;
+}
+#footerdivpai{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.footersidesectionpai{
+  border: solid 0.5rem blue;
+  width: 25%;
+  height: fit-content;
+}
+.footersidesectiontop{
+  border-bottom: solid 0.3rem #b62966;
+}
+#footerbutton{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: solid 0.5rem blue;
+  width: 25%;
+  height: fit-content;
+}
+#footersectionright{
+  align-items: flex-end;
+}
+
+.pinkbgcorrigido{
+  display: flex;
+  flex-direction: column;
+  background-color: #ff87bb;
+  height: fit-content;
+  width: 100%;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  padding: 0 3rem 2rem 3rem;
+}
+
+.pqresolvepaiimgep{
+  display: flex;
+  border: solid 0.5rem #b62966;
+  width: 100%;
+  padding: 2rem 5rem 2rem 5rem;
+
+}
+
+.pqimg{
+  width: 400px;
+  height: 400px;
+}
+
+.pqresolvep{
+  display: flex;
+  flex-direction: column;
+  text-align: justify;
+  align-items: center;
+  justify-content: center;
+
+}
+#pqresolvep1{
+  padding:0 0 0 7rem;
+}
+
+#pqresolvep2{
+  padding:0 7rem 0 0;
+}
+
+.pqresolvep h4 {
+  text-align: center;
+  padding-bottom: 1.5rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
