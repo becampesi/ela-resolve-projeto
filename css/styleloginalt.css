@@ -1,23 +1,69 @@
 *{
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
-#border {  
+main{
+  height: 100vh;
+}
+
+#aligntocenter{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+#border{  
 display: flex;
 flex-direction: column;
 justify-content: center;
 align-items: center;
 border: solid 0.5vw #ff87bb ;
-padding: 15vw;
+padding: 5vw;
+height: max-content;
+width: max-content;
+border-radius: 40px;
+}
+
+#loginmain{
+  display: flex;
+  flex-direction: column;
 }
 
 h1{
   color:#c91c67;
   display: block;
+  padding-bottom: 0.5rem;
 }
+
 h2{
   color: #61555a;
 }
 
 #rememberpassword{
-
+  background-color: transparent;
+  border: none;
+  align-self: flex-start;
 }
+
+#loginbutton{
+  margin: 2rem 0 0 0;
+  background-color:#c91c67;
+  border-radius: 70px;
+  color: whitesmoke;
+  border: none;
+  font-size: large;
+  padding: 0.2rem;
+}
+
+input:hover{
+  border-color: #c91c67 ;
+}
+
+#loginmain form {
+  display: flex;
+  flex-direction: column;
+}
+
+
