@@ -51,3 +51,16 @@ h1{
 .atributoesq{
 align-items: flex-start;  
 }
+
+#criacaodesenha{
+display: flex;
+width: 70%;
+justify-content: space-around;
+}
+
+.linhadadospessoais{
+  display: flex;
+  width: 100%;
+  
+
+}

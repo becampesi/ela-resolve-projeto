@@ -16,8 +16,10 @@
     <section class="border">
       <div id="dadospessoaisbox">
         <form action="cadastrar.html" method="POST">
-          <label for="nome">NOME: </label><input type="text" name="nome" class="dadospessoaiscadastro">
-          <label for="sobrenome">SOBRENOME: </label><input type="text" name="sobrenome" class="dadospessoaiscadastro">
+          <div class="linhadadospessoais">
+            <label for="nome">NOME: </label><input type="text" name="nome" class="dadospessoaiscadastro">
+            <label for="sobrenome">SOBRENOME: </label><input type="text" name="sobrenome" class="dadospessoaiscadastro">
+          </div>
           <br>
           <label for="email">EMAIL: </label><input type="email" name="email" class="dadospessoaiscadastro">
           <label for="telefone">TELEFONE: </label><input type="number" name="telefone" class="dadospessoaiscadastro">
@@ -56,7 +58,7 @@
     <br>
     <h2 class="subtitulos" id="senha">senha</h2>
     <section class="border">
-      <form action="cadastrar.html" method="POST">
+      <form id="criacaodesenha" action="cadastrar.html" method="POST">
         <label for="criarsenha">CRIE UMA SENHA: </label><input type="password" name="criarsenha" class="criacaodesenha">
         <label for="repetirsenha">REPITA A SENHA: </label><input type="password" name="repetirsenha" class="criacaodesenha">
       </form>
@@ -68,10 +70,6 @@
         <label for="nomevisivel">COMO EU QUERO QUE MEU NOME APAREÇA: </label><input type="text" name="nomevisivel">
 
       </form>
-
-
-
-
 
   </main>
 </body>

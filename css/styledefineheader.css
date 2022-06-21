@@ -56,7 +56,7 @@
   }
   
   #banner {
-    height: 80vh;
+    height: 85vh;
     width: 100%;
   }
   
@@ -93,6 +93,7 @@
     width: 500px;
     height: 350px;
     border-radius: 40px;
+    margin-top: -50px;
   }
   
 
@@ -138,7 +139,7 @@
   
   #servicosoferecidos{
     box-sizing: border-box;
-    padding: 5vh 5vh 5vh 5vh;
+    padding: 5vh 5vh 10vh 5vh;
     border: solid 1vw #ff7d99;
     width: 100%;
     height: 100vh;
@@ -160,7 +161,7 @@
     width:28%;
     height: 30vh;
     border: solid 0.5vw #b62966;
-    margin-bottom: 50px;
+    margin-bottom: 3rem;
   }
 
   .imagemServico {
@@ -206,10 +207,10 @@
 
   }
 
-  <!-- Por quw usar o Ela Resolve  --
-   
-  #pqresolvepaiimgep h4{
-    font-size: 2rem;
+ 
+ h4{
+    font-size: 2.5rem;
+    text-transform: uppercase;
   }
 
   .pqimg{
@@ -288,24 +289,38 @@
 #piechart1{
   background:repeating-conic-gradient(
     from 0deg,
-    red 0deg  calc(3.6deg * 89),
-    blue calc(3.6deg * 89) calc(3.6deg * 100)
+    #cf206c 0deg  calc(3.6deg * 89),
+    #ff87bb calc(3.6deg * 89) calc(3.6deg * 100)
+  );
+}
+
+#piechart2{
+  background:repeating-conic-gradient(
+    from 0deg,
+    #cf206c 0deg  calc(3.6deg * 60),
+    #ff87bb calc(3.6deg * 60) calc(3.6deg * 100)
   );
 }
 
 .piechartpercentage{
   text-align: center;
   align-items: center;
-  background-color: green ;
+  font-size: 4rem;
+  font-weight: 500;
 }
 
 .piechartdescription{
   padding: 1rem;
- text-align: justify; 
+ text-align: center; 
 
 }
+
 #sectionduvidas{
-  background-color: #ff87bb;
+  background-color: #ff7d99;
+}
+
+#duvidasimgdiv{
+  margin-bottom: -0.4rem;
 }
 #duvidasimgedescricao{
   display: flex;
@@ -317,6 +332,7 @@
   margin-bottom: 0;
   padding-bottom: 0;
   border: solid 0.5rem #cf206c;
+  border-radius: 0px 15px 15px 0;
 }
 #descricaoebuttondivpai{
   padding: 3rem 5rem 3rem 10rem;
@@ -339,9 +355,22 @@
 }
 
 #duvidasbuttondiv{
-  border: solid 0.5rem orange;
+
   width:100%;
   text-align: left;
+  
+}
+
+#duvidasbutton{
+  background-color: #b62966;
+  width:10rem;
+  height:3rem;
+  text-align: center;
+  border-radius: 70px;
+  color:whitesmoke;
+  background-color: #b62966;
+  border: none;
+  font-size: large;
 }
 
 footer{
@@ -421,6 +450,7 @@ footer{
   text-align: center;
   padding-bottom: 1.5rem;
 }
+
 
 
 
