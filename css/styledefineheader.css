@@ -107,7 +107,6 @@
 
   #oqebutton{
       color:grey;
-      background-color: #b62966;
       width:10rem;
       height:3rem;
       text-align: center;
@@ -239,7 +238,7 @@
   background-color: white;
   width:40%;
   height: fit-content;
-  margin-top: 2rem;
+  align-items: center;
 
 
 }
@@ -377,29 +376,55 @@ footer{
   width: 100%;
   height: fit-content;
   background-color: grey;
-  padding: 3rem;
+  padding: 2.3rem;
+}
+footer h5{
+  font-size: 1.5rem;
+  font-weight: 400;
+  color:#f7eef0;
+}
+footer h6{
+  font-size: 1rem;
+  font-weight: 300;
+  color:#f7eef0;
+  
 }
 #footerdivpai{
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  align-items: center;
 }
 
 .footersidesectionpai{
-  border: solid 0.5rem blue;
+  /* border: solid 0.5rem blue; */
   width: 25%;
   height: fit-content;
 }
 .footersidesectiontop{
-  border-bottom: solid 0.3rem #b62966;
+  border-bottom: solid 0.3rem #cf206c;
 }
 #footerbutton{
+  
   display: flex;
   align-items: center;
   justify-content: center;
-  border: solid 0.5rem blue;
+  /* border: solid 0.5rem blue; */
   width: 25%;
   height: fit-content;
+  
+}
+
+#voltaraotopobutton{
+  width:10rem;
+  height:3rem;
+  text-align: center;
+  border-radius: 70px;
+  color: whitesmoke;
+  background-color: transparent;
+  border: solid 0.3rem #cf206c;
+  font-size: large;
+
 }
 #footersectionright{
   align-items: flex-end;

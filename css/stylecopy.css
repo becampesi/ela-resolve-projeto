@@ -207,7 +207,7 @@
   background-color: white;
   width:40%;
   height: fit-content;
-  margin-top: 2rem;
+
 
 
 }
@@ -315,7 +315,12 @@ footer{
   width: 100%;
   height: fit-content;
   background-color: grey;
-  padding: 3rem;
+  padding: 2.3rem;
+}
+
+footer h6{
+  font-size: 1rem;
+  font-weight: 300; 
 }
 #footerdivpai{
   display: flex;
