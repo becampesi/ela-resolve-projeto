@@ -78,3 +78,63 @@ border-color:#b62966;
 }
 
 /* pq nao aparece o cantinho esq dos inputs? */
+
+/* Minha pagina */
+
+.topborder{
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-top:  0.5rem solid #ff87bb ;
+  padding: 1rem;
+  height: 50%;
+  width: 100%;
+}
+.topborder input{
+  width: 100%;
+}
+
+#meusinteressesdescricao{
+  font-size: small;
+}
+
+#clienteouprestadoradivpai{
+  /* background-color: yellow; */
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+  padding: 1rem 1rem 1rem 1rem;
+  text-align: center;
+  border: 0.5rem solid #b62966;
+}
+h3{
+  color: #b62966;
+  font-size: 1.5rem;
+}
+.clienteouprestadoradiv{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+
+}
+
+.clienteouprestadorabutton{
+  width:100%;
+  text-align: center;
+  border-radius: 15px;
+  font-size: large;
+  padding: 0.3rem;
+}
+
+#queroserprestadorabutton{
+  color:whitesmoke;
+  background-color: #ff87bb;
+  border: none;
+}
+#queroserclientebutton{
+  color:whitesmoke;
+  background-color:#cf206c;
+  border: none;
+}

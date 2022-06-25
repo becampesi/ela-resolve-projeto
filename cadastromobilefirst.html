@@ -105,11 +105,47 @@
       <div class="substitulosdiv">
         <h2 class="subtitulos">minha pagina</h2>
       </div>
-      <section class="border" id="minhapagina">
+      <section class="topborder" id="minhapaginasection">
+
         <form class="atributoesq" action="cadastrar.html" method="POST">
           <label for="nomevisivel">COMO EU QUERO QUE MEU NOME APAREÇA: </label><input type="text" name="nomevisivel">
-
         </form>
+        <br>
+
+        <label for="meusinteresses">MEUS INTERESSES:</label>
+        <select name="meusinteresses" id="meusinteresses">
+          <option>Selecione</option>
+          <option value="Serviços">Serviços</option>
+          <option value="Aulas">Aulas</option>
+          <option value="Animais">Animais</option>
+          <option value="Carros">Carros</option>
+          <option value="Beleza">Beleza</option>
+          <option value="Cabelo">Cabelo</option>
+        </select>
+        <br>
+        <label for="meusinteressesdescricao" id="meusinteressesdescricao">(serviços que tenho interesse em contratar)</label>
+        <br>
+        <br>
+        <label for="maissobremim">MAIS SOBRE MIM:</label>
+        <textarea name="maissobremimtext" id="" maissobremimtext" cols="43" rows="10" placeholder="aqui estão mais informações sobre mim"></textarea>
+        <br>
+        <div id="clienteouprestadoradivpai">
+          <h3>QUAL OPÇÃO SE ENCAIXA MELHOR COM SEU OBJETIVO?</h3>
+        </div>
+
+        <div class="clienteouprestadoradiv" id="queroserprestadoradiv">
+          <button class="clienteouprestadorabutton" id="queroserprestadorabutton">QUERO SER PRESTADORA<div>
+              (adicionar mais informações)</div>
+          </button>
+        </div>
+        <br>
+        <div class="clienteouprestadoradiv" id="queroserprestadoradiv">
+          <button class="clienteouprestadorabutton" id="queroserclientebutton">APENAS CLIENTE<div>
+              (finalizar cadastro)</div>
+          </button>
+        </div>
+
+
 
   </main>
 </body>
