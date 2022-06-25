@@ -70,10 +70,11 @@ form{
   justify-content: left;
 }
 
-
 input:hover{
 border-color:#b62966;
 }
 .dadospessoaiscadastro{
   color:#b62966;
 }
+
+/* pq nao aparece o cantinho esq dos inputs? */
