@@ -1,0 +1,181 @@
+*{
+  box-sizing: border-box;
+  margin:0;
+  padding:0;
+}
+*{
+  font-family: 'Anek Malayalam', sans-serif;
+}
+
+body{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* background-color: aquamarine; */
+}
+main{
+  margin-right: 0;
+  padding-right: 0;
+  width:100vw;
+}
+
+h1{
+  text-align: center;
+  padding: 2rem 1rem 0rem 1rem;
+  color: #b62966;
+}
+
+h2{
+  text-align: left;
+}
+
+.aligntocenterdiv{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 1rem;
+
+}
+
+.substitulosdiv{
+  display: flex;
+  align-items: flex-start;
+  justify-content: left;
+  padding-left: 0.5rem;
+  width: 100%;
+  /* background-color: aqua; */
+
+}
+.subtitulos{
+  color: #ff87bb;
+
+}
+
+.border{
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border: 0.5rem solid #ff87bb ;
+  padding: 1rem;
+  height: 50%;
+  width: 100%;
+  /* background-color: grey; */
+}
+form{
+  display: flex;
+  flex-direction: column;
+  /* background-color: blue; */
+  width: 100%;
+  justify-content: left;
+}
+
+input:hover{
+border-color:#b62966;
+}
+.dadospessoaiscadastro{
+  color:#b62966;
+}
+
+/* pq nao aparece o cantinho esq dos inputs? */
+
+/* Minha pagina */
+
+.topborder{
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-top:  0.5rem solid #ff87bb ;
+  padding: 1rem;
+  height: 50%;
+  width: 100%;
+}
+.topborder input{
+  width: 100%;
+}
+
+#meusinteressesdescricao{
+  font-size: small;
+}
+
+#clienteouprestadoradivpai{
+  /* background-color: yellow; */
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+  padding: 1rem 1rem 1rem 1rem;
+  text-align: center;
+  border: 0.5rem solid #b62966;
+}
+h3{
+  color: #b62966;
+  font-size: 1.5rem;
+}
+.clienteouprestadoradiv{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+
+}
+
+.clienteouprestadorabutton{
+  width:100%;
+  text-align: center;
+  border-radius: 15px;
+  font-size: large;
+  padding: 0.3rem;
+}
+
+#queroserprestadorabutton{
+  color:whitesmoke;
+  background-color: #ff87bb;
+  border: none;
+}
+#queroserclientebutton{
+  color:whitesmoke;
+  background-color:#cf206c;
+  border: none;
+  margin-bottom: 2rem; 
+}
+/* .aligninputs{ */
+  /* display: flex; */
+  /* background-color: aqua; */
+  /* align-items: flex-start; */
+  /* justify-content: left; */
+/* } */
+
+input{
+  padding: 0;
+}
+
+/* Servicos prestados */
+.adicionarservicosouprodutosdiv{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%; 
+  padding:1rem 0 0rem 0;
+}
+
+.adicionarservicosouprodutosbutton{
+  width:15rem;
+  text-align: center;
+  border-radius: 15px;
+  font-size: large;
+  padding: 0.3rem;
+  color:whitesmoke;
+  background-color:#cf206c;
+  border: none;
+  margin-bottom: 2rem;
+  
+}
+
+#queroserprestadorafinalizarbutton{
+  color:whitesmoke;
+  background-color: #ff87bb;
+  border: none;
+  margin-top: 1rem;
+}
+
