@@ -1,0 +1,456 @@
+/* Corpo - Geral (Body) */
+
+* {   
+
+  font-family: 'Anek Malayalam', sans-serif;
+  background-color: #f7a5b7;
+  list-style: none;
+  text-decoration: none;    
+}
+
+* {
+  align-items: center;
+  justify-content: center;
+  justify-items: center;
+  text-align: center;      
+}
+
+
+
+/* Header */
+header {
+  /* background-color: blue; */
+  border:solid 2px #b62966;
+  display: flex;  
+  Align-items:center;  
+  justify-content: space-evenly;
+         
+}
+
+/* barra de pesquisa */
+
+input {
+  background-color: aliceblue;
+  align-items: left;
+  float:left;
+  border-radius: 80px;   
+  align-items: center;  
+  float: left;  
+  justify-content: center;
+  justify-items: center;
+  display: inline-block;  
+}
+
+input:hover {
+  transition: 450ms;
+  background-color: rgb(254, 10, 152);;
+}
+/*  botao e class login */
+
+
+#login {
+  color:#fff;  
+  display: block;  
+  border-radius: 40px; 
+  position: relative; 
+  text-decoration:none; 
+  align-items: center;
+  text-align: center;
+  width:10.5rem;
+  height: 1.6rem;     
+}
+
+#login:hover {
+  background-color: rgb(254, 10, 152);
+  border-radius: 80px;
+  transition: 450ms;
+  width: 50%;
+  align-items: left;  
+  float: center;  
+
+}
+
+#login {  
+  text-align: center;
+}
+
+
+/* Header nav */
+header nav {  
+  /* background-color: yellow;     */
+  justify-content: center;
+  justify-items: center;
+  display: inline-block;   
+}
+
+header ul li a {  
+  color:#fff;  
+  -webkit-box-shadow: 0 2px 5px  rgb(254, 10, 152);;
+  text-shadow: 5px #b62966;
+  display: inline-block;  
+  position: relative;
+  float: left;  
+}
+
+nav header ul li a {
+  display: inline-block;
+  background-color: yellow;
+  align-items: center;
+  justify-content: center;
+  justify-items: center;
+  display: inline-block;  
+}
+
+/* logo */
+
+#logo {
+  display: inline-block;
+  float:left;  
+}
+
+#logo:hover {
+  transition: 450ms;
+  background-color: rgb(254, 10, 152);
+}
+
+
+header {
+  align-items: center;
+}
+
+/* Header nav ul */
+
+header nav ul {
+  display: inline-block;  
+}
+ 
+header nav ul li {  
+  background-color: red;
+  display: inline-block;
+  align-items: left;
+  justify-content: center;
+  justify-items: center;    
+}
+
+
+nav ul li ul li a {
+  background-color: green;
+  display: inline-block;
+
+}
+
+/* header nav ul li a menu, servicos cliente e etc */
+
+
+
+header nav ul li a:hover {
+  background-color: rgb(254, 10, 152);
+  transition: 450ms;
+}
+
+/* Barra de pesquisa */
+
+.text {
+  background-color: aliceblue;
+  display: block;
+  align-items: center;
+  
+}
+
+/* main */
+main {
+  /* background-color:blueviolet; */
+  display: inline-block;
+  padding:2rem;
+
+}
+
+/* main ul li */
+
+main ul li { 
+  display: inline-block; 
+  position:relative;
+  float:left;
+  
+}
+
+/* texto p lorem */
+ p {
+  border:solid 1px ;
+  background-color: #f7a5b7;
+  color:aliceblue; 
+ }
+
+ p:hover {
+  color: #f7a5b7;
+  background-color: rgb(254, 10, 152);
+  border-radius: 20px;  
+  transition: 550ms;
+  font-size: 16px;
+  font-display: none;
+
+ }
+
+ /* ela resolve cliente */
+ h2 {
+  color: #b62966;
+  background-color: #f7a5b7;
+  border: solid 2px #b62966; 
+}
+
+h2:hover {
+  color: rgb(254, 10, 152);
+}
+/* classe img1 */
+
+.img1 {
+  background-color: #b62966; 
+  display: flex;
+  border: solid 2px white;   
+}
+
+.img2 {
+  text-align: left;
+  align-items: center;
+  justify-content: center;
+  justify-items: center;
+  display: flex;
+  background-color: #b62966;
+   
+
+}
+
+.img2 img {
+  background-color: #b62966; 
+  display: flex;
+  border: solid 2px white;
+   
+}
+
+
+
+/*class info1 */
+
+#info1 {
+    width: 100%;
+    align-items: center;
+}
+
+/* botoes mais info */
+
+button {  
+  width:10.5rem;
+  height: 1.6rem;
+  width: 100%;  
+  color:whitesmoke;
+  background-color: #b62966;   
+  border: solid 1.5px white;
+  text-align: center;
+  align-items: center;  
+}
+
+button:hover {
+  width:50%;
+  display: inline-block; 
+
+}
+ 
+/* infomais1 */
+
+
+
+/*  button  */
+
+button:hover {
+  background-color: rgb(254, 10, 152);
+  border-radius: 80px;
+  width: 50%;
+  transition: 450ms;  
+}
+
+/* main img */
+main img {
+  display: inline-block;  
+  background-color: aquamarine;
+  display: inline-block; 
+}
+
+h2 {
+  text-align: right;
+  display: inline-block;
+}
+/* main h2 */
+main h2 {
+  align-items: center;
+  justify-content: center;
+  justify-items: center;
+  text-align: center;   
+  display: inline-block;
+}
+ 
+/* Header nav ul li */
+header nav ul li {
+  display: inline-block;
+  text-align: center;
+  header nav ul 
+
+header nav ul li
+
+header nav ul li a
+  
+  
+}
+
+/* Header nav ul li a */
+
+header nav ul li a {   
+  float:left;
+  display: block;
+  display: ruby-text-container;  
+  
+  
+}
+
+header nav ul {
+  /* background-color: green; */
+  display: inline-block; 
+  position:relative;
+  float:left;
+    
+}
+
+
+/* menu */
+
+ .menu li{    
+  border-right: 2px solid  #b62966;  
+  display: inline-block;
+  }
+
+  
+  
+ .menu li a{
+  position: relative; 
+  text-decoration:none; 
+  padding:12px 50px;   
+  font-size: 10px;
+  display: inline-block;
+}
+
+.menu ul li a {
+  display: inline-block;
+}
+
+/* FOOTER part 1 */
+
+
+footer{
+  width: 100%;
+  height: fit-content;
+  background-color: grey;
+  padding: 2.3rem;
+
+}
+
+section p {
+  text-align: right;
+  display: inline-flex;
+}
+
+footer h5{
+  font-size: 1.5rem;
+  font-weight: 400;
+  color:#f7eef0;
+}
+footer h6{
+  font-size: 1rem;
+  font-weight: 300;
+  color:#f7eef0;
+  
+}
+#footerdivpai{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footersidesectionpai{
+  /* border: solid 0.5rem blue; */
+  width: 25%;
+  height: fit-content;
+}
+.footersidesectiontop{
+  border-bottom: solid 0.3rem #cf206c;
+}
+#footerbutton{
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* border: solid 0.5rem blue; */
+  width: 25%;
+  height: fit-content;
+  
+}
+
+#voltaraotopobutton{
+  width:10rem;
+  height:3rem;
+  text-align: center;
+  border-radius: 70px;
+  color: whitesmoke;
+  background-color: transparent;
+  border: solid 0.3rem #cf206c;
+  font-size: large;
+
+}
+#footersectionright{
+  align-items: flex-end;
+}
+
+.pinkbgcorrigido{
+  display: flex;
+  flex-direction: column;
+  background-color: #ff87bb;
+  height: fit-content;
+  width: 100%;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  padding: 0 3rem 2rem 3rem;
+}
+
+.pqresolvepaiimgep{
+  display: flex;
+  border: solid 0.5rem #b62966;
+  width: 100%;
+  padding: 2rem 5rem 2rem 5rem;
+
+}
+
+.pqimg{
+  width: 400px;
+  height: 400px;
+}
+
+.pqresolvep{
+  display: flex;
+  flex-direction: column;
+  text-align: justify;
+  align-items: center;
+  justify-content: center;
+
+}
+#pqresolvep1{
+  padding:0 0 0 7rem;
+}
+
+#pqresolvep2{
+  padding:0 7rem 0 0;
+}
+
+.pqresolvep h4 {
+  text-align: center;
+  padding-bottom: 1.5rem;
+}
