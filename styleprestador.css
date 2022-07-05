@@ -1,0 +1,260 @@
+/* Configurações Gerais */
+* {
+  background-color: #ff87bb;
+  padding: 0;
+  margin: 0;
+  font-family: 'Anek Malayalam', sans-serif;
+  text-decoration: none; 
+  list-style: none;
+  color: #cf206c;
+}
+
+
+/* Configurações para Cabeçalho (Menu e Logo) */
+header {  
+  display: flex;
+  border: #cf206c 2px solid;
+  padding:10px;
+  margin: 20px;
+  gap: 20px; 
+  align-items: center;
+  margin-top: 10px ;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-block-end: 10px;
+  margin-block-start: 10px ;
+  justify-content: space-around;
+}
+
+/* Menu Serviços, Cliente e Etc */
+.dp-menucabecalho { 
+  font-size: small;
+  font-size: medium;
+  font-style: oblique;
+  display: flex;
+  gap: 50px;
+  align-items: flex-start;
+    
+}
+
+nav a:hover {
+  background-color: #cf206c;
+  color: #ff87bb;
+
+}
+
+/* logo ela resolve */
+#logo:hover {
+  background-color:#cf206c;  
+}
+
+
+/* Seletor de Texto CPF e Senha e Botoes */
+#texto-cpf {
+  display: flex;
+  background-color: white;
+  border: solid 2px #cf206c;
+  width: 100%;
+  margin: 1px; 
+  align-items: center;
+  justify-content: space-around; 
+  color: black;
+}
+
+#texto-cpf:hover {
+  background-color: #cf206c;
+  color: #ff87bb;
+}
+
+#texto-senha {
+  display: flex;
+  background-color: white;
+  border: solid 2px #cf206c;
+  width: 100%;
+  margin: 1px; 
+  align-items: center;
+  justify-content: space-around; 
+  color: black;
+}
+
+#texto-senha:hover {
+  background-color: #cf206c;
+  color: #ff87bb;
+
+}
+
+.botoes-login {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color:#fff;  
+  display: block;
+  position: relative; 
+}
+
+#botao-login {
+  background-color: #cf206c;
+  margin: 3px;
+  height: 25px;
+  width: 50%;
+  color: white;  
+}
+
+#botao-login:hover {
+  background-color: #ff87bb;  
+}
+
+#botao-cadastre-se {
+  background-color: #cf206c;
+  height: 30px;
+  width: 95%;
+  color: white;    
+}
+
+#botao-cadastre-se:hover {
+  background-color: #ff87bb;
+}
+
+/* titulo-principal H1*/
+#titulo-principal {
+  text-align: center;
+}
+
+#titulo-principal:hover {
+  background-color: #cf206c;
+  color: #ff87bb;
+}
+
+
+/* Main - Conteudo Principal */
+main {
+  display: flexbox;
+  align-items: center;
+  justify-content: space-around;
+  gap: 10px;  
+  padding: 10px;
+  margin: 20px;
+  text-align: center;
+  border: #cf206c solid 3px;   
+}
+
+/* titulo-principalonu H1 */
+#titulo-principalonu {
+  margin-top: 8px;
+  margin-bottom: 10px;  
+  border-style: dashed;    
+}
+
+#titulo-principalonu:hover {
+  background-color: #cf206c;
+  color: #ff87bb;
+}
+
+
+/* Imagem Onu Mulheres */
+#imagemprimaria {
+  border-radius: 10%;
+  border: solid 2px black;
+}
+#imagemprimaria:hover {
+  border: solid 2px #cf206c;
+}
+
+
+/* Titulo H1 Femme  */
+#titulo-principalfemme {
+  margin-top: 8px;
+  margin-bottom: 10px;  
+  border-style: dashed; 
+}
+
+#titulo-principalfemme:hover {
+  background-color: #cf206c;
+  color: #ff87bb;
+}
+
+/* Imagem Femme Lab */
+#imagemsecundaria {
+  background-color: white;
+  border-radius: 10%;
+  border: solid 2px black;
+}
+
+#imagemsecundaria:hover {
+  border: solid 2px #cf206c;
+}
+
+
+/* Configuração para Texto P em Geral */
+p {
+  font-style: italic;
+  font-size: 25px;
+  color: black;
+  margin-top: 15px;
+  margin-bottom: 10px; 
+  border-radius: 10%;
+  border: solid 2px black;
+}
+
+p:hover {
+  color: #fff;
+}
+
+/* Botoes Mais Informações em Geral  */
+#mais-info {    
+  background-color: #cf206c;
+  text-align: center;
+  color: white;
+  height: 40px;
+  width: 50%;
+  margin-top: 15px;
+  margin-bottom: 10px;    
+}
+
+#mais-info:hover {
+  
+  background-color: #ff87bb;
+  color: #cf206c;
+  border-radius: 15%;
+  opacity: 95%;
+  transition: 0ms;
+}
+
+.apoio {
+  display: flex;
+  gap: 2px;
+}
+
+#titulo-apoio {
+  margin-top: 8px;
+  margin-bottom: 10px;  
+  border-style: dashed; 
+}
+
+#titulo-apoio:hover {
+  background-color: #cf206c;
+  color: #ff87bb;
+}
+
+#logo-amazon {
+  border: solid 2px black;
+}
+
+#logo-amazon:hover {
+  border: solid 2px #cf206c;
+}
+
+#logo-magazine-luiza {
+  border: solid 2px black;
+}
+
+
+#logo-magazine-luiza:hover {
+  border: solid 2px #cf206c;
+}
+
+/*  Footer ou Rodapé */
+ 
+
+
